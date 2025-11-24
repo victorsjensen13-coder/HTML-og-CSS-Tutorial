@@ -1,0 +1,26 @@
+body {
+    background-color: blue;
+}
+button {
+    background-color: blue;
+    color: black;
+    border: 5px solid black;
+    border-radius: 8px;
+    width: 90px;
+    height: 50px;
+    font-weight: 600;
+    display: inline-block;
+    transition-duration: 800ms;
+}
+h3 {
+    background-color: peru;
+    border: 6px solid black;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+    color: white;
+}
